@@ -2,8 +2,9 @@
 Pod::Spec.new do |s|
 
   s.name         = "MotionOrientation"
-  s.version      = "0.1.0"
-  s.summary      = "Fork from "https://github.com/tastyone/MotionOrientation" An observer to notify the orientation of iOS device changed, using CoreMotion for taking the orientation in 'Orientation Lock'."
+  s.version      = "0.1.1"
+  s.description  = "An observer to notify the orientation of iOS device changed."
+  s.summary      = "Fork from https://github.com/tastyone/MotionOrientation An observer to notify the orientation of iOS device changed, using CoreMotion for taking the orientation in 'Orientation Lock'."
   s.homepage     = "https://github.com/tastyone/MotionOrientation"
   
   s.license      = { :type => 'Apache License, Version 2.0', :text => <<-LICENSE
